@@ -5,6 +5,8 @@ import (
 	"unsafe"
 	"bytes"
 	"strconv"
+	_ "github.com/ki2sme"
+	"github.com/ki2sme"
 )
 
 func main() {
@@ -136,6 +138,10 @@ func main() {
 
 	phone := new(IPhone)
 	phone.call()
+	ki2sme.Arraytest()
+	ki2sme.Maptest()
+
+	ki2sme.Functest()
 }
 
 //闭包
